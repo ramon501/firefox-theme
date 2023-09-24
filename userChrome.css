@@ -1540,11 +1540,11 @@ color: #d7d7db!important;
 }
 
 #urlbar {
-#height: 18px !important;
-#--urlbar-height: 18px !important;
-#--urlbar-min-height: 26px !important;
-min-height: 24px !important;
-margin-top: -1px;
+height: 24px !important;
+--urlbar-height: 18px !important;
+--urlbar-min-height: 26px !important;
+min-height: 16px !important;
+margin-top: -4px;
 font-size: 13px !important;
 font-weight: bold !important;
 }
