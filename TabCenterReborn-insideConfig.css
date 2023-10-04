@@ -1,0 +1,9 @@
+/* Hide filterbox & settings icon */
+#topmenu,
+#newtab,
+#filterbox-icon,
+#filterbox-input,
+#settings {
+    display: none;
+}
+
