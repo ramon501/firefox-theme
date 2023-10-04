@@ -1570,3 +1570,10 @@ font-weight: bold !important;
 toolbar#PersonalToolbar > toolbaritem#personal-bookmarks toolbarbutton.bookmark-item .toolbarbutton-icon {
 	filter: grayscale(100%);
 }
+
+/* remove tab center reborn top header */
+
+#sidebar-box[sidebarcommand*="tabcenter"] #sidebar-header {
+    visibility: collapse;
+    display: none;
+}

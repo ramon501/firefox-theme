@@ -1567,3 +1567,9 @@ font-weight: bold !important;
     display: none !important;
 }
 
+/* remove tab center reborn top header */
+
+#sidebar-box[sidebarcommand*="tabcenter"] #sidebar-header {
+    visibility: collapse;
+    display: none;
+}
